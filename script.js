@@ -4,9 +4,9 @@ function insert_Row() {
 		let trElement=document.createElement("tr");
 
 	let tdElement1=document.createElement("td");
-	tdElement.innerText="New Cell1";
+	tdElement1.innerText="New Cell1";
 	let tdElement2=document.createElement("td");
-	tdElement.innerText="New Cell2";
+	tdElement2.innerText="New Cell2";
 	tdElement1.appendChild(trElement);
 		tdElement2.appendChild(trElement);
 
