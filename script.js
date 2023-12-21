@@ -3,10 +3,15 @@ function insert_Row() {
 	let tableElement=document.getElementById("sampleTable");
 		let trElement=document.createElement("tr");
 
-	let tdElement=document.createElement("td");
-	tdElement.innerText="Row1 cell1";
-	tdElement.appendChild(trElement);
+	let tdElement1=document.createElement("td");
+	tdElement.innerText="New Cell1";
+	let tdElement2=document.createElement("td");
+	tdElement.innerText="New Cell2";
+	tdElement1.appendChild(trElement);
+		tdElement2.appendChild(trElement);
+
 	trElement.appendChild(tableElement);
+	
 	
 
 	
