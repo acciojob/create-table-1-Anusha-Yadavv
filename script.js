@@ -1,16 +1,14 @@
 function insert_Row() {
     //Write your code here
 	let tableElement=document.getElementById("sampleTable");
-		let trElement=document.createElement("tr");
-
-	let tdElement1=document.createElement("td");
-	tdElement1.innerText="New Cell1";
-	let tdElement2=document.createElement("td");
-	tdElement2.innerText="New Cell2";
-	tdElement1.appendChild(trElement);
-		tdElement2.appendChild(trElement);
-
-	trElement.appendChild(tableElement);
+	let newRow=tableElement.insertRow(0);
+	let newCell1=newRow.insertCell(0);
+	newCell1.innerText="New Cell1";
+	
+	let newCell2=newRow.insertCell(1);
+	newCell2.innerText="New Cell2";
+	
+		
 	
 	
 
